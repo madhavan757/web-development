@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+}
+  #love{
+    color:white;
+  }
+  #queen{
+    color: aliceblue;
+  }
+  .king{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30%;
+    margin-right: 30%;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+  }
+.madhavan-img{
+  border: 5px solid white;
+  width: 100%;
+}
+*{
+  text-align: center;
+}
+
