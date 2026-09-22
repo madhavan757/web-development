@@ -1,0 +1,85 @@
+.mm{
+    font-family: "Pinyon Script";
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+    
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.contain{
+    background-image: url(./image/night\ tree.png);
+   
+    
+}
+
+
+img{
+    width: 150px;
+    height: 83%;
+   
+   margin-left: 50%;
+    border-radius: 70%
+}
+.kk{
+    font-family: "Pinyon Script";
+    font-size: 30px;
+    color: rgb(156, 38, 38);
+    text-align: center;
+    
+    margin-left: 30%;
+    margin-right: 20%;
+
+}
+
+
+
+
+.skills {
+  width: 80%;
+  margin: 60px auto;
+}
+
+/* Each skill row */
+.skill-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+/* Image styles */
+.skill-image {
+  width: 250px;
+  height: auto;
+}
+
+.skill-icon {
+  width: 120px;
+  height: auto;
+}
+
+/* Text section */
+.skill-text h2 {
+  color: #1aa3a3;
+  margin-bottom: 15px;
+}
+
+.skill-text p {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  .skill-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skill-image,
+  .skill-icon {
+    margin: 0 auto;
+  }
+}
